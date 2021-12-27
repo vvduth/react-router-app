@@ -1,11 +1,18 @@
 import { Fragment } from 'react';
-
+import { useHistory } from 'react-router-dom';
 import QuoteItem from './QuoteItem';
 import classes from './QuoteList.module.css';
 
 const QuoteList = (props) => {
+  const changeSortingHanlder = () =>{
+
+  };
+
   return (
     <Fragment>
+      <div className={classes.sorting}>
+          <button onClick = {changeSortingHanlder}>Sort Ascending</button>
+      </div>
       <ul className={classes.list}>
         {props.quotes.map((quote) => (
           <QuoteItem
