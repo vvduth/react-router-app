@@ -11,6 +11,9 @@ function App() {
       <Route path = '/' exact>
         <Redirect to = '/quotes'/>
       </Route>
+      <Route path = '/react-router-app' exact>
+        <Redirect to = '/quotes'/>
+      </Route>
       <Route path='/quotes' exact>
         <AllQuotes/>
       </Route>
