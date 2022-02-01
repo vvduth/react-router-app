@@ -11,10 +11,10 @@ const MainNavigation = () => {
             <nav className={classes.nav}>
                 <ul>
                     <li>
-                        <NavLink to='/quotes' activeClassName={classes.active}>All questions</NavLink>
+                        <NavLink to='/react-router-app/quotes' activeClassName={classes.active}>All questions</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/new-quote' activeClassName={classes.active} >Add a question</NavLink>
+                        <NavLink to='/react-router-app/new-quote' activeClassName={classes.active} >Add a question</NavLink>
                     </li>
                 </ul>
             </nav>

@@ -9,20 +9,20 @@ function App() {
     <Layout>
     <Switch>
       <Route path = '/' exact>
-        <Redirect to = '/quotes'/>
+        <Redirect to = '/react-router-app'/>
       </Route>
       <Route path = '/react-router-app' exact>
-        <Redirect to = '/quotes'/>
+        <Redirect to = '/react-router-app/quotes'/>
       </Route>
-      <Route path='/quotes' exact>
+      <Route path='/react-router-app/quotes' exact>
         <AllQuotes/>
       </Route>
           
-      <Route path = '/quotes/:quoteId'>
+      <Route path = '/react-router-app/quotes/:quoteId'>
         <QuoteDateils/>
       </Route>
 
-      <Route path='/new-quote'>
+      <Route path='/react-router-app/new-quote'>
           <NewQuote/>
       </Route> 
       

@@ -12,7 +12,7 @@ const NewQuote = () => {
 
     useEffect(()=> {
         if (status === 'completed') {
-            history.push('/quotes') ;
+            history.push('/react-router-app/quotes') ;
         }
     },[status, history])
 
