@@ -6,15 +6,15 @@ const MainNavigation = () => {
     return (
         <header className={classes.header}>
             <div className={classes.logo}>
-                Great Quotes
+                IT 2021 Spring
             </div>
             <nav className={classes.nav}>
                 <ul>
                     <li>
-                        <NavLink to='/quotes' activeClassName={classes.active}>All Quotes</NavLink>
+                        <NavLink to='/quotes' activeClassName={classes.active}>All questions</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/new-quote' activeClassName={classes.active} >Add a Quote</NavLink>
+                        <NavLink to='/new-quote' activeClassName={classes.active} >Add a question</NavLink>
                     </li>
                 </ul>
             </nav>

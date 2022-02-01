@@ -7,7 +7,7 @@ const QuoteItem = (props) => {
     <li className={classes.item}>
       <figure>
         <blockquote>
-          <p>{props.text}</p>
+          <p>{props.topic}</p>
         </blockquote>
         <figcaption>{props.author}</figcaption>
       </figure>

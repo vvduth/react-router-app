@@ -22,6 +22,7 @@ const NewCommentForm = (props) => {
     event.preventDefault();
 
     const enteredText = commentTextRef.current.value;
+    commentTextRef.current.value ='';
 
     // optional: Could validate here
 

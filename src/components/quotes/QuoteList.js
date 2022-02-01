@@ -43,6 +43,7 @@ const QuoteList = (props) => {
             id={quote.id}
             author={quote.author}
             text={quote.text}
+            topic={quote.topic}
           />
         ))}
       </ul>

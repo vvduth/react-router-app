@@ -2,10 +2,10 @@ import classes from './HighlightedQuote.module.css';
 
 const HighlightedQuote = (props) => {
   return (
-    <figure className={classes.quote}>
+    <div className={classes.quote}>
       <p>{props.text}</p>
       <figcaption>{props.author}</figcaption>
-    </figure>
+    </div>
   );
 };
 
