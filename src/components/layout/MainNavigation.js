@@ -6,7 +6,7 @@ const MainNavigation = () => {
     return (
         <header className={classes.header}>
             <div className={classes.logo}>
-                IT 2021 Spring
+                IT 2021 Spring 2
             </div>
             <nav className={classes.nav}>
                 <ul>
